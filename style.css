@@ -1,20 +1,28 @@
-body {
-  font-family: "gilroy-medium", sanserif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* Hero Section */
+body {
+  /* font-family: 'Inter', sans-serif; */
+  font-family: "gilroy-medium", sanserif;
 
-/* Navigation Menu */
-.nav_menu,
-.nav_link {
-  display: flex;
-  justify-content: space-around;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "gilroy-bold", sanserif;
 }
 
 li {
   list-style: none;
 }
 
-.page_link {
-  padding-left: 10px;
+a {
+  text-decoration: none;
+  color: #141414;
 }
