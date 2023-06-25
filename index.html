@@ -13,28 +13,38 @@
     <!-- Navigation Bar -->
     <div class="hero_section">
       <!-- Navigation Menu -->
-      <div class="nav_menu">
-        <div class="logo">
-          <img class="header_logo" src="Images/Logo.png" alt="" srcset="" />
-        </div>
+      <nav class="home" id="home">
+        <div class="nav-center">
+          <div class="logo">
+            <img class="logo-icon" src="./images/Logo.svg" alt="nav-logo" />
+          </div>
 
-        <!-- Navigation Menu -->
-        <nav class="nav_menu">
-          <ul class="nav_link">
-            <li class="page_link">Hello</li>
-            <li class="page_link">Hello</li>
-            <li class="page_link">Hello</li>
-            <li class="page_link">Hello</li>
-            <li class="page_link">Hello</li>
+          <ul class="nav-links">
+            <li>
+              <a class="nav-link primary-blue-300" href="#home">My URLs</a>
+            </li>
+            <li class="feature-tag">
+              <a class="nav-link" href="#features">Features </a>
+              <!-- <i class="fa-light fa-angle-down fa-sm"></i> -->
+              <img src="./images/down-arrow.svg" alt="" />
+            </li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#form">Analytics</a></li>
+            <li><a class="nav-link" href="#questions">FAQs</a></li>
           </ul>
-        </nav>
 
-        <!-- Header Button -->
-        <ul class="header_button">
-          <li>Button</li>
-          <li><button>Try For Free</button></li>
-        </ul>
-      </div>
+          <ul class="signin-links">
+            <li><a class="signin-link primary-blue-300" href="#">Log in</a></li>
+            <li>
+              <a class="signin-link-bg btn-blue btn" href="#">Try for free</a>
+            </li>
+          </ul>
+
+          <span class="logo-btn sidebar-open-btn"
+            ><i class="fa-solid fa-bars fa-xl" style="color: #095cec"></i
+          ></span>
+        </div>
+      </nav>
     </div>
   </body>
 </html>
